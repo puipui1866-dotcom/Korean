@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en"><head><meta name="x-poe-datastore-behavior" content="local_only"><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangul Buddy - IoT Enhanced Korean Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-sky: #4A90E2;        
+            --accent-teal: #2DC7C7;        
+            --cloud-white: #FFFFFF;        
+            --dark-slate: #2C3E50;       
+            --light-sky: #87CEEB;         
+            --font-primary: 'Inter', sans-serif;  
+            --radius-lg: 24px;   
+            --space-xl: 2rem;    
+            --space-lg: 1.5rem;
+            --space-md: 1rem;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--light-sky);
+            color: var(--dark-slate);
+        }
+
+        /* Navigation */
+        .nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: var(--primary-sky);
+            padding: var(--space-lg);
+            color: white;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: var(--space-md);
+            transition: background 0.3s;
+        }
+
+        .nav a:hover {
+            background: var(--accent-teal);
+            border-radius: var(--radius-lg);
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: var(--space-xl);
+            background: linear-gradient(135deg, var(--primary-sky), var(--accent-teal));
+            color: white;
+        }
+
+        .hero h1 {
+            margin-bottom: var(--space-md);
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: var(--space-md) var(--space-lg);
+            border-radius: var(--radius-lg);
+            background: var(--accent-teal);
+            color: white;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: var(--primary-sky);
+        }
+
+        /* Feature Sections */
+        .feature-section {
+            background: var(--cloud-white);
+            padding: var(--space-lg);
+            border-radius: var(--radius-lg);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            margin: var(--space-lg) 0;
+        }
+
+        .feature-section h2 {
+            color: var(--primary-sky);
+            margin-bottom: var(--space-lg);
+            text-align: center;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding-left: 0;
+            text-align: center;
+        }
+
+        .feature-list li {
+            margin: var(--space-md) 0;
+            font-size: 1.1rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: var(--space-lg);
+            color: var(--dark-slate);
+            background-color: var(--light-sky);
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div><a href="#">Home</a></div>
+        <div><a href="#">Features</a></div>
+        <div><a href="#">Resources</a></div>
+        <div><a href="#">Pricing</a></div>
+        <div><a href="#">Contact</a></div>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to Hangul Buddy</h1>
+        <p>Your IoT Enhanced Korean Learning Experience</p>
+        <a href="#" class="cta-button">Download the App</a>
+    </div>
+
+    <div class="feature-section">
+        <h2>Discover Our Features</h2>
+        <ul class="feature-list">
+            <li><i class="fas fa-qrcode"></i> QR Scanning for Interactive Learning</li>
+            <li><i class="fas fa-map-marker-alt"></i> Location-Based Learning</li>
+            <li><i class="fas fa-volume-up"></i> AI-Powered Pronunciation Coaching</li>
+            <li><i class="fas fa-tags"></i> NFC Smart Materials for On-the-Go Learning</li>
+        </ul>
+    </div>
+
+    <div class="feature-section">
+        <h2>Quick App Preview</h2>
+        <p>Get a glimpse of our engaging interface and intuitive design!</p>
+    </div>
+
+    <div class="feature-section">
+        <h2>Join Our Community</h2>
+        <p>Connect with learners, share experiences, and grow together!</p>
+    </div>
+
+    <div class="footer">
+        <p>© 2023 Hangul Buddy. All rights reserved.</p>
+    </div>
+
+
+</body></html>
